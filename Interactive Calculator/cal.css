@@ -1,0 +1,93 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(#272640, #312244, #4d194d);
+}
+
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: rgba(255,255,255,0.05);
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    border-left: 1px solid rgba(255,255,255,0.05);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+}
+
+#result{
+    height: 140px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 25px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #919191;
+}
+
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 40px;
+    color: white;
+}
+
+#keyboard{
+    height: 480px;
+    margin-top: 15px;
+}
+
+.operator, .number, .empty{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background: rgba(255,255,255,0.05);
+}
+
+.operator{
+    background: rgba(22, 22, 22, 0.170);
+}
+
+.empty{
+    background: rgba(0, 0, 0, 0);
+}
+
+.number:hover{
+    transition: 0s;
+    background: rgba(22, 22, 22, 0.170);
+}
+
+.operator:hover{
+    transition: 0s;
+    background: rgba(255,255,255,0.05);
+}
+
+.number, .operator{
+    cursor: pointer;
+}
+
+.number:active, .operator:active{
+    font-size: 16px;
+}
+
+
+
+
+
