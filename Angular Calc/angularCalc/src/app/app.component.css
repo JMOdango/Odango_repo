@@ -1,0 +1,82 @@
+@font-face{
+    font-family:'Queental';
+    src: url('src/assets/fonts/Queental-Bold.otf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face{
+    font-family:'Blacksword';
+    src: url('src/assets/fonts/Blacksword.otf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+#container{
+    margin-top: 5px;
+}
+
+#text1, #text2, #resultDisplay{
+    font-family: Queental, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+h1{
+    font-family: Blacksword, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#text1, #text2
+{
+    font-size: 25px;
+    color: white;
+}
+
+.userInput{
+    margin: 5px auto;
+}
+
+.box{
+    margin: 10px;
+    height: 50px;
+    width: 20em;
+    border-radius: 20px;
+    border-width: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.315);
+    font-family: Queental, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+button{
+    margin: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(#FFD5B2, #C49C7C, #927359);
+
+}
+
+button:hover{
+    transition: 0s;
+    background: rgb(51, 50, 50);
+    cursor: pointer;
+}
+
+#resultDisplay{
+    background: none;
+    font-size: 80px;
+    width: 10em;
+    border-width: 0;
+    color: white;
+}

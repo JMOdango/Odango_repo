@@ -1,0 +1,28 @@
+<h1>{{title}}</h1>
+<div id="container">
+<div class="userInput" id="userInput1">
+<label id="text1" for="">First Number</label>
+</div>
+<input class="box" id="firstBox" (input)="getFirst(firstNumber.value)" type="text" #firstNumber/>
+
+
+<div class="userInput" id="userInput2">
+<label id="text2" for="">Second Number</label>
+</div>
+<input class="box" id="secondBox" (input)="getSecond(secondNumber.value)" type="text" #secondNumber/>
+
+
+<div class="buttons">
+  <button [disabled]="!(firstNumber.value && secondNumber.value)"  (click)="addition()">+</button>
+  <button [disabled]="!(firstNumber.value && secondNumber.value)" (click)="subtraction()">-</button>
+  <button [disabled]="!(firstNumber.value && secondNumber.value)" (click)="division()">&#247;</button>
+  <button [disabled]="!(firstNumber.value && secondNumber.value)" (click)="multiplication()">&times;</button>
+</div>
+
+<div class="output">
+  <input id="resultDisplay" *ngIf="result" type="text" [value]= "result"/>
+</div>
+</div>
+
+
+
