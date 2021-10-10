@@ -1,0 +1,26 @@
+@font-face{
+    font-family:'Queental';
+    src: url('src/assets/fonts/Queental-Bold.otf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face{
+    font-family:'Blacksword';
+    src: url('src/assets/fonts/Blacksword.otf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+#container{
+    margin-top: 5px;
+}
+
+
+h1{
+    font-family: Blacksword, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}

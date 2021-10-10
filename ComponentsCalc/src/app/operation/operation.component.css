@@ -1,0 +1,18 @@
+button{
+    margin: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(#FFD5B2, #C49C7C, #927359);
+
+}
+
+button:hover{
+    transition: 0s;
+    background: rgb(51, 50, 50);
+    cursor: pointer;
+}

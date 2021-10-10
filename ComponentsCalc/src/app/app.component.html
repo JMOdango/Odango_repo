@@ -1,0 +1,18 @@
+<h1>{{title}}</h1>
+<div id="container">
+<app-numbers 
+    (firstNumberEvent)="getFirst($event)"
+    (secondNumberEvent)="getSecond($event)"
+></app-numbers>
+
+<app-operation
+    (operationEvent)="getOperation($event)"
+></app-operation>
+
+<app-result
+    [firstNum]="this.firstNumber"
+    [secondNum]="this.secondNumber"
+    [operation]="this.operation"
+></app-result>
+</div>
+
