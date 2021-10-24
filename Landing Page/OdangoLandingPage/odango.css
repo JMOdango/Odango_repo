@@ -1,0 +1,75 @@
+@font-face
+{
+  font-family: 'Aller';
+	src: url('font/Aller_Std_Bd.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0; 
+  font-family: 'Montserrat', sans-serif;
+  background: url(image/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container-gallery {
+  width: 1200px;
+  margin-top: 20px;
+  margin-right: 75px;
+  margin-left: 75px;
+  padding-bottom: 60px;
+}
+
+.col#left{
+  height: 640px;
+  background: url(https://get.pxhere.com/photo/water-horizon-black-and-white-architecture-sky-skyline-night-photography-lake-building-city-atmosphere-skyscraper-urban-cityscape-downtown-dusk-reflection-tower-usa-chicago-darkness-monochrome-outdoors-illinois-michigan-destination-metropolis-city-skyline-chicago-skyline-monochrome-photography-geographical-feature-atmospheric-phenomenon-human-settlement-546863.jpg) no-repeat center;
+  background-size: 1000px;
+}
+
+.col#right{
+  height: 640px;
+  background-color: rgba(7, 7, 7, 0.726);
+}
+
+.form-control{
+  size: 60px;
+}
+
+.container-fluid{
+  width: 90%;
+}
+
+.btn#btn1{
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 30%;
+}
+
+.btn#btn2{
+  margin-top: 30px;
+  width: 100px;
+}
+
+#right h1{
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  margin-top: 150px;
+  font-family: 'Aller', Arial, Helvetica, sans-serif;
+}
+
+#left h6{
+  color: rgba(255, 255, 255, 0.774);
+  font-size: 10px;
+  margin-top: 600px;
+  margin-left:20px;
+  font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar-brand{
+  font-family: 'Aller', Arial, Helvetica, sans-serif;
+}
